@@ -90,7 +90,7 @@ body {
 /**************************/
 
 .container {
-  max-width: 115rem;
+  max-width: 110rem;
   padding: 0 3.2rem;
   margin: 0 auto;
 }
@@ -287,3 +287,56 @@ body {
 strong {
   font-weight: 500;
 }
+
+/* .sidebar{
+  position: fixed;
+  top: 0;
+  right: 0;
+  gap: 4.8rem;
+  height: 100vh;
+  width: 250px;
+  z-index: 999;
+  display: none;
+  align-items: center;
+ flex-direction: column;
+ align-items: flex-start;
+ background-color: rgba(255, 255, 2555, 0.2);
+ backdrop-filter: blur(10px);
+ justify-content: flex-start;
+ box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.sidebar li{
+  width: 100%;
+  padding-left: 2rem;
+  padding-top: 1.5rem;
+}
+
+.sidebar a{
+  width: 100%;
+}
+
+@media(max-width: 800px){
+  .hideOnMobile{
+    display: none;
+  }
+}
+
+@media(max-width: 800px) {
+  .showOnMobile{
+    display: flex;
+  }
+
+  .menu-button{
+    display: flex;
+  }
+  
+  .menu-button{
+    display: block;
+  }
+}
+
+.menu-button{
+  display: none;
+}  */
